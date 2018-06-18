@@ -1,0 +1,86 @@
+On the Main Page
+
+
+
+
+4. On the main page, the verbiage for what we do has been provided as seen in the goals of the Strategic Plan. Kindly ensure that it reflects on the main page and also on the tab 
+    of "goals" under MHI.
+5. Kindly integrate our Social media feeds. Right now only your feeds are visible
+6. The verbiage under who we are should be same as the write up used for "Overview".
+
+
+
+ABOUT US
+
+
+
+
+5. Same as on main page kindly include goals for each aspect as provided
+
+
+
+
+                ABOUT MHI
+
+Clinical Care
+Kindly include the goal, vision, and centers as provided.
+                Goal - To provide unrivaled quality and timely integrated healthcare services
+                Vision - To be a leader in redefining healthcare delivery and to be recognized for our commitment to providing innovative, accessible, quality, and timely care    
+                             to our patients and the communities we serve
+                Centers - Kindly populate
+                                Also under centres change "Address" to "Contact" and include Services as the third tab in addition to the contact and team that already exists there.
+                Services - Internal Medicine
+                                 Paediatric medicine
+                                 Surgery
+                                 Obstetrics and Gynaecology
+                                 Dentistry
+                                 Opthalmology/Optometry
+                                 Radiology
+                                 Oncology
+
+PREVENTIVE HEALTH SERVICES
+
+Under this Tab, I will populate the programs and outreach myself but i need the page for services to be active so that i can include:
+                                                                                              i.         Vaccinations
+
+1.         Childhood Immunization
+
+2.         Yellow Fever Immunization
+
+3.         Human Papilloma Virus Immunization
+
+4.         Hepatitis B Vaccine
+
+                                                                                            ii.         Confidential HIV counseling and Testing
+
+                                                                                          iii.         Cervical Cancer Screening
+
+                                                                                        iv.         Breast Cancer Screening
+
+                                                                                          v.         Colorectal Cancer Screening
+
+                                                                                        vi.         Prostate Cancer Screening
+
+                                                                                      vii.         Diabetes Screening
+
+                                                                                    viii.         High Blood Pressure Screening
+
+                                                                                        ix.         Genetic Counseling and Screening
+
+ 
+RESOURCES
+Under this tab i noticed news, media and health updates have been taken out. Is there a reason? also the gallery function does not work, the photos dont slide or move you"ll have to close then open next photo.
+
+
+Contact US
+Under this tab, please change "dont be shy" to "We would love to hear from you"
+
+DONATE
+Does not exist on Windows
+only accepts Naira we need forex portals
+
+VOLUNTEER
+Does not exist on Windows
+this forms goes where? 
+Profession needs a drop down menu to minimize options
+Kindly populate the country section

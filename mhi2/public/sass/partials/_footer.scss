@@ -1,0 +1,127 @@
+.main-footer{
+    padding: 30px 15px 0;
+    background-color: $blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: 0;
+
+    .logo{
+        text-align: left;
+        margin-bottom: 30px;
+
+        @include MQ(M){
+            //text-align: center;
+        }
+
+        img{
+            width: 100px;
+        }
+    }
+
+    .top{
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .bottom {
+        padding: 10px 0;
+    }
+
+    .title{
+        font-size: 0.9em;
+        color: rgba(255,255,255,0.7);
+        margin-bottom: 30px;
+        font-weight: 400;
+        line-height: 1.2em;
+    }
+
+    .list{
+        margin-bottom: 40px;
+
+        li{
+            margin-bottom: 15px;
+            font-size: 0.8em;
+            line-height: 1.2em;
+
+            @include MQ(M){
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .address-line{
+        margin-bottom: 20px;
+        color: rgba(255,255,255,0.3);
+
+        font-size: 0.8em;
+        line-height: 1.2em;
+
+        @include MQ(M){
+            font-size: 0.9em;
+        }
+    }
+
+    a{
+        color: rgba(255,255,255,0.3);
+
+        transition: all 0.3s ease;
+
+        &:hover{
+            color: rgba(255,255,255,0.7);
+            transition: all 0.3s ease;
+        }
+    }
+
+    .contact-us{
+        font-size: 1em;
+        margin-bottom: 20px;
+        font-weight: 400;
+
+
+        i{
+            margin-right: 5px;
+        }
+    }
+
+}
+
+
+.social-media{
+    overflow: hidden;
+    color: white;
+
+    li{
+        display: inline-block;
+        margin-right: 20px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+
+        a{
+//            /padding: 8px 12px;
+            display: inline-block;
+        }
+
+        .facebook{
+            background-color: $facebook;
+        }
+        .twitter{
+            background-color: $twitter;
+        }
+        .instagram{
+            background-color: $instagram;
+        }
+    }
+}
+
+.copyright{
+    font-size: 0.7em;
+    color: rgba(255,255,255,0.3);
+
+    text-align: center;
+
+        @include MQ(M){
+            text-align: left;
+        }
+}

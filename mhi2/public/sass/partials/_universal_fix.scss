@@ -1,0 +1,179 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+	background-color: white;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.show{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.noScroll{
+    overflow: hidden;
+}
+
+
+.main-content{
+    margin-top: 45px;
+    
+    @include MQ(M){
+        margin-top: 74px;
+    }
+}
+
+.container_wrapper{
+    padding: 0 15px;
+    
+    @include MQ(M){
+        padding: 0;
+    }
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.centered{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+a{
+	//color: $txt_default;
+    color: $green;
+	text-decoration: none;
+	text-decoration-line: none;
+    text-decoration-style: none;
+    text-decoration-color: none;
+    text-decoration-skip: none;
+    
+    transition: color 0.3s ease;
+}
+
+a::link {
+    background-color: none;
+}
+
+a::visited {
+    color: $yellow_dark;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    
+    transition: color 0.3s ease;
+}
+
+a:active {
+    color: $yellow_dark;
+}
+
+
+//Card hover fade
+.card_section:hover .card:not(:hover){
+    opacity: 0.9;
+}
+
+//Bootstrap Grid Fix
+.container{
+    
+    @include MQ(M){
+        padding: 0;
+    }
+}
+
+.row{
+    margin: 0;
+}
+
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    //flex-wrap: wrap;
+    margin: 0;
+    
+    @include MQ(M){
+        justify-content: center;
+    }
+}
+
+//.row.is-flex > [class*='col-'] {
+//    display: -webkit-box;
+//    display: -webkit-flex;
+//    display: -ms-flexbox;
+//    display: flex;
+//
+//
+//    padding: 0;
+//}
+
+[class*='col-']{
+    padding: 0;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px; 
+}
+
+//Swiper
+html, body {
+    position: relative;
+    height: 100%;
+}
+.swiper-container, .swiper-container-project-gallery{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination{
+    text-align: center;
+    padding-left: 20px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    border: 1px solid #250949;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #250949;
+}

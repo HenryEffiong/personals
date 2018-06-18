@@ -1,0 +1,209 @@
+.btn-white,
+.btn-black,
+.btn-red,
+.btn-trans-white,
+.btn-trans {
+    //margin-left: 5px;
+    //margin-right: 5px;
+    
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 0px;
+    
+    i{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+
+
+.btn-white{
+    color: $txt_default;
+    background-color: $bg_white;
+    border:1px solid $bg_grey_dark;
+    
+    transition: all 0.4s ease;
+    
+    &:hover{
+        color: $txt_dark;
+        background-color: $bg_white;
+        border:1px solid $txt_dark;
+        
+        transition: all 0.4s ease;
+    }
+}
+
+.btn-black{
+    color: $txt_default;
+    background-color: $bg_white;
+    border:1px solid $bg_grey_dark;
+    
+    transition: all 0.4s ease;
+}
+
+.btn-red{
+    color: $bg_white;
+    background-color: $bg_red;
+    border:1px solid $bg_red;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        background-color: $bg_red_hover;
+        color: $bg_white;
+        transition: all 0.4s ease;
+    }
+}
+
+.btn-big{
+    padding: 12px 40px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.btn-trans{
+    border: 1px solid $green;
+    background-color: rgba(0,0,0,0);
+    //color: #b9b5b5;
+    padding: 8px 30px;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        color: $bg_orange_dark;
+    }
+}
+
+.btn-apply{
+    padding: 10px 40px;
+    color: white;
+    background-color: #0a373e;
+    font-size: 0.8em;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        color: white;
+        opacity: 0.8;
+        transition: all 0.4s ease;
+    }
+}
+
+
+.input-trans{
+    border: 1px solid $green;
+    background-color: rgba(0,0,0,0);
+    cursor: text;
+    text-align: left;
+    //color: #b9b5b5;
+    padding: 8px;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        color: $bg_orange_dark;
+    }
+}
+
+.btn-trans-white{
+    border: 0.5px solid white;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 8px 30px;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        //color: $yellow_dark;
+        color: whitesmoke;
+    }
+}
+
+.btn-contact{
+    border: 0;
+    outline: 0;
+    background-color: $bg_orange;
+    color: white;
+    font-size: 1.3em;
+    padding: 8px 30px;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        color: white;
+        background-color: $bg_orange_dark;
+    }
+}
+
+.btn-primary{
+    border: 0;
+    outline: 0;
+    background-color: $bg_orange;
+    border-radius: 0;
+    //color: #b9b5b5;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        background-color: $bg_orange_dark;
+    }
+}
+
+.btn-secondary{
+    border: 0;
+    outline: 0;
+    background-color: $yellow;
+    //color: #b9b5b5;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        background-color: $yellow_dark;
+    }
+}
+
+.btn-card {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    //color: #b9b5b5;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        background-color: $yellow_dark;
+    }
+}
+
+.btn-grey{
+    border: 0;
+    outline: 0;
+    background-color: $bg_grey_dark;
+    color: black !important;
+    transition: all 0.4s ease;
+    
+    &:hover{
+        transition: all 0.4s ease;
+        background-color: #bbb;
+    }
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: $yellow_dark !important;
+    border-color: $yellow_dark;
+}
